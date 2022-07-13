@@ -202,6 +202,10 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="d100Label" destination="RF8-2i-CCS" id="WS4-xi-4rV"/>
+                        <outlet property="d200Label" destination="OTF-Us-VOQ" id="aJp-yp-kGh"/>
+                        <outlet property="d300Label" destination="R3p-gu-2ym" id="NGz-ab-YfL"/>
+                        <outlet property="d400Label" destination="roi-dp-MYO" id="nZd-YG-7Us"/>
                         <outletCollection property="dButton" destination="lV2-5Q-fXF" collectionClass="NSMutableArray" id="3w2-0X-pQ0"/>
                         <outletCollection property="dLabel" destination="xpz-bN-lKD" collectionClass="NSMutableArray" id="rV8-Ue-pPf"/>
                         <outletCollection property="dButton" destination="11S-6j-5NW" collectionClass="NSMutableArray" id="MJG-Gj-pue"/>
@@ -210,6 +214,10 @@
                         <outletCollection property="dLabel" destination="Eqf-79-OuX" collectionClass="NSMutableArray" id="2uC-Y6-kYs"/>
                         <outletCollection property="dLabel" destination="Bgg-30-AEK" collectionClass="NSMutableArray" id="nZg-sr-JTw"/>
                         <outletCollection property="dLabel" destination="wi4-VH-V5t" collectionClass="NSMutableArray" id="PaI-ZX-JVw"/>
+                        <outletCollection property="annivarsaryYear" destination="wRA-hX-emN" collectionClass="NSMutableArray" id="L2q-92-3WD"/>
+                        <outletCollection property="annivarsaryYear" destination="TVL-sK-PwJ" collectionClass="NSMutableArray" id="moW-zX-mWF"/>
+                        <outletCollection property="annivarsaryYear" destination="TAO-Lr-UFM" collectionClass="NSMutableArray" id="yi1-vW-nfW"/>
+                        <outletCollection property="annivarsaryYear" destination="GJS-cc-gzX" collectionClass="NSMutableArray" id="vLe-vW-6nJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
