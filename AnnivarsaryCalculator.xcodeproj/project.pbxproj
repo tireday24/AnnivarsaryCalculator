@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8148394C287E9C3000819F71 /* AnnivarsaryCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8148394B287E9C3000819F71 /* AnnivarsaryCalculatorViewController.swift */; };
 		814F554E287E7EDA00AF68A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814F554D287E7EDA00AF68A5 /* AppDelegate.swift */; };
 		814F5550287E7EDA00AF68A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814F554F287E7EDA00AF68A5 /* SceneDelegate.swift */; };
 		814F5552287E7EDA00AF68A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814F5551287E7EDA00AF68A5 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8148394B287E9C3000819F71 /* AnnivarsaryCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnivarsaryCalculatorViewController.swift; sourceTree = "<group>"; };
 		814F554A287E7EDA00AF68A5 /* AnnivarsaryCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnnivarsaryCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		814F554D287E7EDA00AF68A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		814F554F287E7EDA00AF68A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				814F554F287E7EDA00AF68A5 /* SceneDelegate.swift */,
 				814F5551287E7EDA00AF68A5 /* ViewController.swift */,
 				814F5553287E7EDA00AF68A5 /* Main.storyboard */,
+				8148394B287E9C3000819F71 /* AnnivarsaryCalculatorViewController.swift */,
 				814F5556287E7EDA00AF68A5 /* Assets.xcassets */,
 				814F5558287E7EDA00AF68A5 /* LaunchScreen.storyboard */,
 				814F555B287E7EDA00AF68A5 /* Info.plist */,
@@ -141,6 +144,7 @@
 				814F5552287E7EDA00AF68A5 /* ViewController.swift in Sources */,
 				814F554E287E7EDA00AF68A5 /* AppDelegate.swift in Sources */,
 				814F5550287E7EDA00AF68A5 /* SceneDelegate.swift in Sources */,
+				8148394C287E9C3000819F71 /* AnnivarsaryCalculatorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

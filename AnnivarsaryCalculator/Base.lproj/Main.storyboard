@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Annivarsary Calculator View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AnnivarsaryCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="AnnivarsaryCalculatorViewController" customModule="AnnivarsaryCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,7 +64,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D+200" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eqf-79-OuX">
-                                <rect key="frame" x="215" y="431.5" width="53" height="26.5"/>
+                                <rect key="frame" x="231" y="431.5" width="53" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Eqf-79-OuX" secondAttribute="height" multiplier="2:1" id="Mb4-TR-Eib"/>
                                 </constraints>
@@ -73,7 +73,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D+300" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bgg-30-AEK">
-                                <rect key="frame" x="32" y="614.5" width="53" height="26.5"/>
+                                <rect key="frame" x="32" y="630.5" width="53" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Bgg-30-AEK" secondAttribute="height" multiplier="2:1" id="3c6-Le-gpU"/>
                                 </constraints>
@@ -124,8 +124,8 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="2D5-rk-hay">
-                                <rect key="frame" x="81" y="729" width="73.5" height="49"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="2D5-rk-hay">
+                                <rect key="frame" x="71" y="681.5" width="73.5" height="49"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2021년" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAO-Lr-UFM">
                                         <rect key="frame" x="0.0" y="0.0" width="73.5" height="20.5"/>
@@ -141,8 +141,8 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="ZSf-Dc-iLC">
-                                <rect key="frame" x="285" y="729" width="73.5" height="48"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="ZSf-Dc-iLC">
+                                <rect key="frame" x="270" y="682" width="73.5" height="48"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2021년" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GJS-cc-gzX">
                                         <rect key="frame" x="0.0" y="0.0" width="73.5" height="20.5"/>
@@ -166,13 +166,13 @@
                             <constraint firstItem="U6s-qp-ci1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="3PQ-zC-uQC"/>
                             <constraint firstItem="nE8-Gv-ihn" firstAttribute="centerY" secondItem="lV2-5Q-fXF" secondAttribute="centerY" id="3dH-OY-ima"/>
                             <constraint firstItem="xpz-bN-lKD" firstAttribute="top" secondItem="eh0-fR-hkn" secondAttribute="bottom" constant="32" id="3wL-mY-nV0"/>
+                            <constraint firstItem="Eqf-79-OuX" firstAttribute="leading" secondItem="lV2-5Q-fXF" secondAttribute="trailing" constant="32" id="4nF-Zz-T4c"/>
                             <constraint firstItem="U6s-qp-ci1" firstAttribute="top" secondItem="lV2-5Q-fXF" secondAttribute="bottom" constant="16" id="5zf-lB-Wlf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="haI-ek-duS" secondAttribute="trailing" constant="16" id="6DO-TE-tnP"/>
                             <constraint firstItem="2D5-rk-hay" firstAttribute="centerY" secondItem="U6s-qp-ci1" secondAttribute="centerY" id="8iR-ZW-VJi"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="haI-ek-duS" secondAttribute="bottom" constant="16" id="AYq-Wm-RrF"/>
-                            <constraint firstItem="Bgg-30-AEK" firstAttribute="top" secondItem="lV2-5Q-fXF" secondAttribute="bottom" constant="16" id="Aty-Lj-dQ6"/>
+                            <constraint firstItem="Bgg-30-AEK" firstAttribute="top" secondItem="lV2-5Q-fXF" secondAttribute="bottom" constant="32" id="Aty-Lj-dQ6"/>
                             <constraint firstItem="haI-ek-duS" firstAttribute="width" secondItem="lV2-5Q-fXF" secondAttribute="width" id="DP9-JN-LxM"/>
-                            <constraint firstItem="Eqf-79-OuX" firstAttribute="top" secondItem="eh0-fR-hkn" secondAttribute="bottom" constant="32" id="Elp-tn-gy9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="U6s-qp-ci1" secondAttribute="bottom" constant="16" id="KPF-tA-Gay"/>
                             <constraint firstItem="wi4-VH-V5t" firstAttribute="top" secondItem="11S-6j-5NW" secondAttribute="bottom" constant="32" id="LdO-eH-RbZ"/>
                             <constraint firstItem="wi4-VH-V5t" firstAttribute="leading" secondItem="U6s-qp-ci1" secondAttribute="trailing" constant="32" id="MFP-v4-bvK"/>
@@ -180,6 +180,7 @@
                             <constraint firstItem="ZSf-Dc-iLC" firstAttribute="centerY" secondItem="haI-ek-duS" secondAttribute="centerY" id="QWG-u4-tQQ"/>
                             <constraint firstItem="HYn-7v-ITp" firstAttribute="centerY" secondItem="11S-6j-5NW" secondAttribute="centerY" id="SMR-GC-7y0"/>
                             <constraint firstItem="2D5-rk-hay" firstAttribute="centerX" secondItem="U6s-qp-ci1" secondAttribute="centerX" id="SNM-Dx-nS0"/>
+                            <constraint firstItem="Eqf-79-OuX" firstAttribute="top" secondItem="eh0-fR-hkn" secondAttribute="bottom" constant="32" id="SP8-O2-fKJ"/>
                             <constraint firstItem="nE8-Gv-ihn" firstAttribute="centerX" secondItem="lV2-5Q-fXF" secondAttribute="centerX" id="SmJ-VI-iLa"/>
                             <constraint firstItem="11S-6j-5NW" firstAttribute="leading" secondItem="lV2-5Q-fXF" secondAttribute="trailing" constant="16" id="bL1-M3-loW"/>
                             <constraint firstItem="11S-6j-5NW" firstAttribute="height" secondItem="lV2-5Q-fXF" secondAttribute="height" id="cQG-Tl-IsI"/>
@@ -190,7 +191,6 @@
                             <constraint firstItem="haI-ek-duS" firstAttribute="height" secondItem="lV2-5Q-fXF" secondAttribute="height" id="kpc-91-4Oy"/>
                             <constraint firstItem="haI-ek-duS" firstAttribute="leading" secondItem="U6s-qp-ci1" secondAttribute="trailing" constant="16" id="mb7-ZR-Lau"/>
                             <constraint firstItem="lV2-5Q-fXF" firstAttribute="top" secondItem="eh0-fR-hkn" secondAttribute="bottom" constant="16" id="oNk-g6-XJ9"/>
-                            <constraint firstItem="Eqf-79-OuX" firstAttribute="leading" secondItem="lV2-5Q-fXF" secondAttribute="trailing" constant="16" id="oiX-PJ-gIT"/>
                             <constraint firstItem="U6s-qp-ci1" firstAttribute="height" secondItem="lV2-5Q-fXF" secondAttribute="height" id="pOg-cP-k6E"/>
                             <constraint firstItem="eh0-fR-hkn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="pX2-wd-MCJ"/>
                             <constraint firstItem="11S-6j-5NW" firstAttribute="width" secondItem="lV2-5Q-fXF" secondAttribute="width" id="q99-aK-WJp"/>
@@ -201,6 +201,16 @@
                             <constraint firstItem="11S-6j-5NW" firstAttribute="top" secondItem="eh0-fR-hkn" secondAttribute="bottom" constant="16" id="zkK-dz-Erd"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outletCollection property="dButton" destination="lV2-5Q-fXF" collectionClass="NSMutableArray" id="3w2-0X-pQ0"/>
+                        <outletCollection property="dLabel" destination="xpz-bN-lKD" collectionClass="NSMutableArray" id="rV8-Ue-pPf"/>
+                        <outletCollection property="dButton" destination="11S-6j-5NW" collectionClass="NSMutableArray" id="MJG-Gj-pue"/>
+                        <outletCollection property="dButton" destination="U6s-qp-ci1" collectionClass="NSMutableArray" id="HyN-fw-V6i"/>
+                        <outletCollection property="dButton" destination="haI-ek-duS" collectionClass="NSMutableArray" id="7Y1-Ss-M3M"/>
+                        <outletCollection property="dLabel" destination="Eqf-79-OuX" collectionClass="NSMutableArray" id="2uC-Y6-kYs"/>
+                        <outletCollection property="dLabel" destination="Bgg-30-AEK" collectionClass="NSMutableArray" id="nZg-sr-JTw"/>
+                        <outletCollection property="dLabel" destination="wi4-VH-V5t" collectionClass="NSMutableArray" id="PaI-ZX-JVw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
