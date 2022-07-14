@@ -207,9 +207,13 @@
                     </view>
                     <connections>
                         <outlet property="d100Label" destination="RF8-2i-CCS" id="WS4-xi-4rV"/>
+                        <outlet property="d100YearLabel" destination="wRA-hX-emN" id="oyI-AY-o6n"/>
                         <outlet property="d200Label" destination="OTF-Us-VOQ" id="aJp-yp-kGh"/>
-                        <outlet property="d300Label" destination="R3p-gu-2ym" id="NGz-ab-YfL"/>
+                        <outlet property="d200YearLabel" destination="TVL-sK-PwJ" id="Z0u-iN-4ge"/>
+                        <outlet property="d300Label" destination="R3p-gu-2ym" id="kuv-1v-U2v"/>
+                        <outlet property="d300YearLabel" destination="TAO-Lr-UFM" id="SGF-Ih-ueO"/>
                         <outlet property="d400Label" destination="roi-dp-MYO" id="nZd-YG-7Us"/>
+                        <outlet property="d400YearLabel" destination="GJS-cc-gzX" id="gGX-W4-fo3"/>
                         <outlet property="dDayDatePicker" destination="eh0-fR-hkn" id="5ZS-4q-Ohg"/>
                         <outlet property="dPlus100Label" destination="xpz-bN-lKD" id="0hR-TI-kvE"/>
                         <outlet property="dPlus200Label" destination="Eqf-79-OuX" id="hx4-j6-u60"/>

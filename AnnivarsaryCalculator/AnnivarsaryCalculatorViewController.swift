@@ -8,10 +8,6 @@
 import UIKit
 
 class AnnivarsaryCalculatorViewController: UIViewController {
-
-    
-   
-    
     @IBOutlet var dButton: [UIButton]!
     @IBOutlet var dLabel: [UILabel]!
     @IBOutlet var annivarsaryYear: [UILabel]!
@@ -26,14 +22,20 @@ class AnnivarsaryCalculatorViewController: UIViewController {
     @IBOutlet weak var d300Label: UILabel!
     @IBOutlet weak var d400Label: UILabel!
     
-    @IBOutlet weak var dDayDatePicker: UIDatePicker!
+    @IBOutlet weak var d100YearLabel: UILabel!
+    @IBOutlet weak var d200YearLabel: UILabel!
     
+    @IBOutlet weak var d300YearLabel: UILabel!
+    @IBOutlet weak var d400YearLabel: UILabel!
+    
+    @IBOutlet weak var dDayDatePicker: UIDatePicker!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         btnDesign()
         numDesign()
         yearDesign()
+        calculteDays()
     }
     
     func btnDesign() {
@@ -42,11 +44,6 @@ class AnnivarsaryCalculatorViewController: UIViewController {
             btn.clipsToBounds = true
             btn.layer.borderWidth = 2
             btn.layer.borderColor = UIColor.white.cgColor
-            dayDesign(d100Label, labelFont: .systemFont(ofSize: 20), labelColor: .white, labelText: "03월 27일")
-            dayDesign(d200Label, labelFont: .systemFont(ofSize: 20), labelColor: .white, labelText: "07월 05일")
-            dayDesign(d300Label, labelFont: .systemFont(ofSize: 20), labelColor: .white, labelText: "10월 13일")
-            dayDesign(d400Label, labelFont: .systemFont(ofSize: 20), labelColor: .white, labelText: "01월 21일")
-            
         }
     }
     
@@ -64,46 +61,42 @@ class AnnivarsaryCalculatorViewController: UIViewController {
         }
     }
     
-    func dayDesign(_ labelName: UILabel, labelFont: UIFont, labelColor: UIColor, labelText: String) {
-        
+    func calculteDays() {
+        handleDateCalculation(currentDate: dDayDatePicker.date)
     }
-    
-    let calendar = Calendar.current
-    let currentDate = Date()
-    var daysCount: Int = 0
-    let dateFormatter = DateFormatter()
-    
-//    func calculteDays() {
-//        dateFormatter.dateFormat = "yyyy-MM-dd"
-//        let startDate = DateFormatter.dateFormat(from:"")
-//        daysCount = days(from: startDate)
-//        let hundred = calendar.date(byAdding: .day, value: 100, to: startDate)
-//    }
-//
-//    func days(from date: Date) -> Int {
-//        return calendar.dateComponents([.day], from: date, to: currentDate).day + 1
-//    }
 
     @IBAction func dDayDatePickerAction(_ sender: UIDatePicker) {
-        let datePickerView = sender
-        let formatter = DateFormatter()
-        
-        formatter.dateFormat = "yyyy년-MM월-dd일"
-        d100Label.text = formatter.string(from: datePickerView.date)
-        d200Label.text = formatter.string(from: datePickerView.date)
-        d300Label.text = formatter.string(from: datePickerView.date)
-        d400Label.text = formatter.string(from: datePickerView.date)
-        
-        formatter.dateFormat = "+ dd"
-        dPlus100Label.text = formatter.string(from: datePickerView.date)
-        dPlus200Label.text = formatter.string(from: datePickerView.date)
-        dPlus300Label.text = formatter.string(from: datePickerView.date)
-        dPlus400Label.text = formatter.string(from: datePickerView.date)
-        
+        handleDateCalculation(currentDate: sender.date)
     }
     
-   
-    
-    
-
+    func handleDateCalculation(currentDate: Date)  {
+        let calendar = Calendar.current
+        let dateFormatter = DateFormatter()
+        let yearFormatter = DateFormatter()
+        
+        yearFormatter.dateFormat = "yyyy"
+        dateFormatter.dateFormat = "MM월 dd일"
+        
+        // 1. get date from date picker
+        // 2. add 100, 200, 300, 400 to formatted date
+        var dateComponent = DateComponents()
+        dateComponent.day = 100
+        let hundredDays = calendar.date(byAdding: dateComponent, to: currentDate)
+        dateComponent.day = 200
+        let twoHundredDays = calendar.date(byAdding: dateComponent, to: currentDate)
+        dateComponent.day = 300
+        let threeHundredDays = calendar.date(byAdding: dateComponent, to: currentDate)
+        dateComponent.day = 400
+        let fourHundredDays = calendar.date(byAdding: dateComponent, to: currentDate)
+        // 3. use dateformatter to format the date
+        // 4. assign dates to labels
+        d100Label.text = dateFormatter.string(from: hundredDays!)
+        d100YearLabel.text = yearFormatter.string(from: hundredDays!)
+        d200Label.text = dateFormatter.string(from: twoHundredDays!)
+        d200YearLabel.text = yearFormatter.string(from: twoHundredDays!)
+        d300Label.text = dateFormatter.string(from: threeHundredDays!)
+        d300YearLabel.text = yearFormatter.string(from: threeHundredDays!)
+        d400Label.text = dateFormatter.string(from: fourHundredDays!)
+        d400YearLabel.text = yearFormatter.string(from: fourHundredDays!)
+    }
 }
