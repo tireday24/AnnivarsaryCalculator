@@ -11,6 +11,8 @@ class AnnivarsaryCalculatorViewController: UIViewController {
     @IBOutlet var dButton: [UIButton]!
     @IBOutlet var dLabel: [UILabel]!
     @IBOutlet var annivarsaryYear: [UILabel]!
+    @IBOutlet var annivarsaryMonthDay: [UILabel]!
+    
     
     @IBOutlet weak var dPlus100Label: UILabel!
     @IBOutlet weak var dPlus200Label: UILabel!
@@ -24,7 +26,6 @@ class AnnivarsaryCalculatorViewController: UIViewController {
     
     @IBOutlet weak var d100YearLabel: UILabel!
     @IBOutlet weak var d200YearLabel: UILabel!
-    
     @IBOutlet weak var d300YearLabel: UILabel!
     @IBOutlet weak var d400YearLabel: UILabel!
     
@@ -58,6 +59,13 @@ class AnnivarsaryCalculatorViewController: UIViewController {
         for yr in annivarsaryYear {
             yr.font = .systemFont(ofSize: 20)
             yr.textColor = .white
+        }
+    }
+    
+    func monthAndDayDesign() {
+        for md in annivarsaryMonthDay {
+            md.font = .systemFont(ofSize: 20)
+            md.textColor = .white
         }
     }
     

@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="eh0-fR-hkn">
-                                <rect key="frame" x="47" y="44" width="320" height="337"/>
+                                <rect key="frame" x="15" y="44" width="384" height="404"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="eh0-fR-hkn" secondAttribute="height" multiplier="0.95" id="v7y-LK-Gab"/>
                                 </constraints>
@@ -27,7 +27,7 @@
                                 </connections>
                             </datePicker>
                             <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lV2-5Q-fXF">
-                                <rect key="frame" x="16" y="397" width="183" height="183"/>
+                                <rect key="frame" x="16" y="464" width="183" height="183"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="lV2-5Q-fXF" secondAttribute="height" id="DUu-Rs-XAx"/>
                                 </constraints>
@@ -35,7 +35,7 @@
                                 <state key="normal" title="Button" image="100"/>
                             </button>
                             <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="11S-6j-5NW">
-                                <rect key="frame" x="215" y="397" width="183" height="183"/>
+                                <rect key="frame" x="215" y="464" width="183" height="183"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="11S-6j-5NW" secondAttribute="height" id="x2d-yU-hoG"/>
                                 </constraints>
@@ -43,7 +43,7 @@
                                 <state key="normal" title="Button" image="200"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U6s-qp-ci1">
-                                <rect key="frame" x="16" y="596" width="183" height="183"/>
+                                <rect key="frame" x="16" y="663" width="183" height="183"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="U6s-qp-ci1" secondAttribute="height" id="lWV-5d-4xN"/>
                                 </constraints>
@@ -51,7 +51,7 @@
                                 <state key="normal" title="Button" image="300"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="haI-ek-duS">
-                                <rect key="frame" x="215" y="596" width="183" height="183"/>
+                                <rect key="frame" x="215" y="663" width="183" height="183"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="haI-ek-duS" secondAttribute="height" id="SbK-13-5pD"/>
                                 </constraints>
@@ -59,7 +59,7 @@
                                 <state key="normal" title="Button" image="400"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D+100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xpz-bN-lKD">
-                                <rect key="frame" x="32" y="413" width="50.5" height="25"/>
+                                <rect key="frame" x="32" y="480" width="50.5" height="25.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="xpz-bN-lKD" secondAttribute="height" multiplier="2:1" id="Y5v-cr-vMK"/>
                                 </constraints>
@@ -68,7 +68,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D+200" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eqf-79-OuX">
-                                <rect key="frame" x="231" y="413" width="53" height="26.5"/>
+                                <rect key="frame" x="231" y="480" width="53" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Eqf-79-OuX" secondAttribute="height" multiplier="2:1" id="Mb4-TR-Eib"/>
                                 </constraints>
@@ -77,7 +77,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D+300" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bgg-30-AEK">
-                                <rect key="frame" x="32" y="612" width="53" height="26.5"/>
+                                <rect key="frame" x="32" y="679" width="53" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Bgg-30-AEK" secondAttribute="height" multiplier="2:1" id="3c6-Le-gpU"/>
                                 </constraints>
@@ -86,7 +86,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D+400" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wi4-VH-V5t">
-                                <rect key="frame" x="231" y="612" width="53.5" height="26.5"/>
+                                <rect key="frame" x="231" y="679" width="53.5" height="27"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="wi4-VH-V5t" secondAttribute="height" multiplier="2:1" id="wdC-3q-iEH"/>
                                 </constraints>
@@ -95,7 +95,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="nE8-Gv-ihn">
-                                <rect key="frame" x="71" y="464" width="73.5" height="49"/>
+                                <rect key="frame" x="71" y="531" width="73.5" height="49"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2021년" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wRA-hX-emN">
                                         <rect key="frame" x="0.0" y="0.0" width="73.5" height="20.5"/>
@@ -112,7 +112,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="HYn-7v-ITp">
-                                <rect key="frame" x="270" y="464" width="73.5" height="49"/>
+                                <rect key="frame" x="270" y="531" width="73.5" height="49"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2021년" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TVL-sK-PwJ">
                                         <rect key="frame" x="0.0" y="0.0" width="73.5" height="20.5"/>
@@ -129,7 +129,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="2D5-rk-hay">
-                                <rect key="frame" x="71" y="663" width="73.5" height="49"/>
+                                <rect key="frame" x="71" y="730" width="73.5" height="49"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2021년" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAO-Lr-UFM">
                                         <rect key="frame" x="0.0" y="0.0" width="73.5" height="20.5"/>
@@ -146,7 +146,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="ZSf-Dc-iLC">
-                                <rect key="frame" x="270" y="663.5" width="73.5" height="48"/>
+                                <rect key="frame" x="270" y="730.5" width="73.5" height="48"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2021년" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GJS-cc-gzX">
                                         <rect key="frame" x="0.0" y="0.0" width="73.5" height="20.5"/>
@@ -231,6 +231,10 @@
                         <outletCollection property="annivarsaryYear" destination="TVL-sK-PwJ" collectionClass="NSMutableArray" id="moW-zX-mWF"/>
                         <outletCollection property="annivarsaryYear" destination="TAO-Lr-UFM" collectionClass="NSMutableArray" id="yi1-vW-nfW"/>
                         <outletCollection property="annivarsaryYear" destination="GJS-cc-gzX" collectionClass="NSMutableArray" id="vLe-vW-6nJ"/>
+                        <outletCollection property="annivarsaryMonthDay" destination="OTF-Us-VOQ" collectionClass="NSMutableArray" id="Wkh-gM-m1z"/>
+                        <outletCollection property="annivarsaryMonthDay" destination="RF8-2i-CCS" collectionClass="NSMutableArray" id="kjh-d7-w14"/>
+                        <outletCollection property="annivarsaryMonthDay" destination="R3p-gu-2ym" collectionClass="NSMutableArray" id="zrz-eM-HRJ"/>
+                        <outletCollection property="annivarsaryMonthDay" destination="roi-dp-MYO" collectionClass="NSMutableArray" id="AHV-JQ-Yum"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
