@@ -42,7 +42,6 @@ class AnnivarsaryCalculatorViewController: UIViewController {
     func btnDesign() {
         for btn in dButton {
             btn.layer.cornerRadius = 10
-            btn.clipsToBounds = false
             btn.layer.borderWidth = 2
             btn.layer.borderColor = UIColor.white.cgColor
         }
